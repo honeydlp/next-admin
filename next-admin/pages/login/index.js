@@ -18,7 +18,7 @@ class Login extends React.Component{
     return (
       <div id="login-warp">
         <div className="login-main">
-          <div className="login-title">天黑请闭眼控制台</div>
+          <div className="login-title">后台管理系统</div>
           <WrappedHorizontalLoginForm {...this.props.user} />
         </div>
        </div>

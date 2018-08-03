@@ -18,7 +18,7 @@ class SideBar extends React.Component{
     const navList = this.props.navList;
     return (
       <div style={{position:'relative' }} id="sideBar-warp">
-         <h3 style={{fontSize:'18px',color:'#fff',paddingLeft:'24px',margin:0,marginTop:'6px'}}>天黑控制台</h3>
+         <h3 style={{fontSize:'18px',color:'#fff',paddingLeft:'24px',margin:0,marginTop:'6px'}}>后台管理</h3>
         <Menu
           mode="inline"
           theme="dark"
