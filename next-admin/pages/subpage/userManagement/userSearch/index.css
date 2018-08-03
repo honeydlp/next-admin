@@ -1,0 +1,105 @@
+/* search Form */
+.formWrap {
+	position: relative;
+	padding-bottom: 75px;
+}
+.searchForm {
+	padding: 0 10px;
+}
+.searchForm .ant-form-item {
+  display: flex;
+}
+.searchForm .ant-form-item-control-wrapper {
+  /*flex: 1;*/
+}
+.report-search .search {
+	text-align: center;
+}
+.search .ant-form-item-control-wrapper {
+  flex: 1;
+}
+.searchForm .footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+	padding: 20px 0;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* list table */
+.table-main .user-avatar img {
+	height: 70px;
+}
+.table-main .user-bgi img {
+	height: 70px;
+}
+.close-box {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+.close-box .close-btn {
+	display: none;
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.close-box:hover .close-btn {
+	display: block;
+}
+.table-main .status-normal:hover {
+	background-color: #090;
+}
+.table-main .status-box {
+	width: 110px;
+	margin: 0 auto;
+}
+.table-main .status-box p {
+	margin-bottom: 0;
+}
+.table-main .status-box span {
+	display: block;
+	padding: 3px 7px;
+	color: #fff;
+	text-align: center;
+}
+.table-main .status-normal {
+	background-color: #0a0;
+	cursor: pointer;
+}
+.table-main .status-normal:hover {
+	background-color: #090;
+}
+.table-main .status-disabled {
+	background-color: #ff9900;
+	cursor: pointer;
+}
+.table-main .status-disabled:hover {
+	background-color: #EE7600;
+}
+.table-main .status-box .msg-list {
+	background-color: #444;
+	cursor: pointer;
+}
+.table-main .status-box .msg-list:hover {
+	background-color: #333;
+}
+.table-main .status-box .info-more {
+	display: inline-block;
+	color: #444;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 0;
+}
+.table-main .status-box .info-more:hover {
+	color: #888;
+}

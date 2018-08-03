@@ -1,0 +1,16 @@
+.ant-menu-dark.ant-menu-inline .ant-menu-item, .ant-menu-dark.ant-menu-inline .ant-menu-submenu-title{
+  width: 180px;
+}
+#sideBar-warp .badge {
+  display: inline-block;
+  line-height: 13px;
+  font-size: 12px;
+  background-color: #e02222;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #fff;
+  font-style: normal;
+  margin-left: 4px;
+  position: relative;
+  bottom: -1px;
+}

@@ -1,0 +1,10 @@
+.statusModal {
+	display: inline;
+}
+.statusContent {
+	display: inline;
+}
+.statusModal-input {
+	width: 300px;
+	margin: 20px 0px 0px 10px;
+}

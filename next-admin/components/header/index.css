@@ -1,0 +1,22 @@
+#header-wraper{
+  height: 45px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #000;
+}
+#header-wraper .header-user-box{
+  float: right;
+  padding: 7px 4px 6px 9px;
+}
+#header-wraper .header-user-logo{
+  width: 30px;
+  margin-right: 5px;
+}
+#header-wraper .header-user-name{
+  color: #eee;
+} 
+#components-dropdown-demo-placement .ant-btn {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}

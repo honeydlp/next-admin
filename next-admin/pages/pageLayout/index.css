@@ -1,0 +1,11 @@
+.layout-wraper{
+  display: flex;
+  background-color: #001529;
+}
+.layout-main{
+  flex: 1;
+  background-color: #fff;
+  min-height: 800px;
+  padding: 20px 20px;
+  position: relative;
+}

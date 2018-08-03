@@ -1,0 +1,19 @@
+#login-warp{
+  background-color: #666 !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.login-main{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+}
+.login-title{
+  font-size: 22px;
+  line-height: 2.5;
+  text-align: center;
+  color: #fff;
+}
